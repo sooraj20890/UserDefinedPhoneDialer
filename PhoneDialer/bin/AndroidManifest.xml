@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.phonedialer"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    <!-- declaring minimum and target Sdk versions -->
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <!-- activity tag for this app -->
+        <activity
+            android:name=".EditorActivity"
+            android:label="@string/app_name" >
+            <!-- intent filter tag -->
+            <intent-filter>
+                
+                <!-- intent action -->
+                <action android:name="android.intent.action.MAIN" />
+                 <!-- intent category indicating that this activity to be called on launch  -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

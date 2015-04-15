@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/PeachPuff" >
+<!-- edit text field tags indicating id,size,inputtype and labelfor properties -->
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="200dip"
+        android:ems="10"
+        android:inputType="textMultiLine" 
+        android:labelFor="@+id/editText1"
+        android:cursorVisible="true"
+        >
+        
+        <requestFocus />
+    </EditText>
+<!-- button field with id,size and text properties -->
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Submit"
+         />
+
+</LinearLayout>
